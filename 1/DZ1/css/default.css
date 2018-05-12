@@ -1,0 +1,43 @@
+﻿@import "linii.css";
+
+body {
+    background-color: #95cc99;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-right: 25%;
+}
+
+p.otst {
+    margin-bottom: 50px;
+}
+
+div.server {
+    background-color: #d99ab5;
+}
+
+img.foto {
+    max-height: 200px;
+}
+
+h1.slov{
+    font-weight: bold;
+}
+
+div.content {
+    background-color: #d99ab5;
+    margin: 60px;
+}                        
+
+div.info{
+    text-align: center;
+}
+
+h2.text{
+    text-align: left;
+}
+
+p.sot{
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 26px;
+}

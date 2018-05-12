@@ -1,0 +1,7 @@
+﻿hr {
+    border: none;
+    background-color: #696969;
+    color: #696969; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+
