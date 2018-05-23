@@ -58,11 +58,11 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="css\StyleSheet.css" />
     <Content Include="index.html" />
     <None Include="DZ2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
     <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
