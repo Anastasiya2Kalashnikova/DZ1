@@ -9,4 +9,41 @@
 .conteiner {
     background: #ebf5ed;
     height: 100vh;
+    margin-top: 0%;
+}
+
+.header {
+    height: 150px;
+    background: #000000;
+    color: #ffffff;
+}
+
+.seredina {
+    background: #e3dc4f;
+    color: #74c265;
+    height: 100vh;
+}
+
+.footer {
+    margin-bottom: 200px;
+    background: #000000;
+    color: #ffffff;
+    height: 100vh;
+}
+
+ul {
+    font: 14px Verdana,sans-serif;
+}
+
+    ul li {
+        display: inline-block;
+        width: 100px;
+        border: 1px solid #E76D13;
+    }
+
+p {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
