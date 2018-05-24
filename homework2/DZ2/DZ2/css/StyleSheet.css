@@ -13,7 +13,7 @@
 }
 
 .header {
-    height: 33vh;
+    height: 18vh;
     background: #000000;
     color: #ffffff;
 }
@@ -21,13 +21,13 @@
 .seredina {
     background: #e3dc4f;
     color: #74c265;
-    height: 34vh;
+    height: 64vh;
 }
 
 .footer {
     background: #000000;
     color: #ffffff;
-    height: 33vh;
+    height: 18vh;
 }
 
 ul {
