@@ -8,12 +8,12 @@
 
 .conteiner {
     background: #ebf5ed;
-    height: 100vh;
+    height: 100px;
     margin-top: 0%;
 }
 
 .header {
-    height: 18vh;
+    height: 225px;
     background: #000000;
     color: #ffffff;
 }
@@ -21,13 +21,13 @@
 .seredina {
     background: #e3dc4f;
     color: #74c265;
-    height: 64vh;
+    height: 60vh;
 }
 
 .footer {
     background: #000000;
     color: #ffffff;
-    height: 18vh;
+    height: 225px;
 }
 
 ul {
