@@ -59,11 +59,12 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\StyleSheet.css" />
+    <Content Include="images\velik.png" />
+    <Content Include="images\logo.png" />
     <Content Include="index.html" />
     <None Include="DZ2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
