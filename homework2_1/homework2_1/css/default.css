@@ -2,3 +2,27 @@
     background-image: url(../images/background.png) ;
     background-size: 100%;
 }
+
+.cont {
+    height: 100vh;
+}
+
+/*Header*/
+
+.header {
+    height: 590px;
+}
+
+/*Середина*/
+
+.seredina {
+    height: 1100px;
+}
+
+/*Подвал*/
+
+.footer {
+    height: 50px;
+    text-align: center;
+    color: white;
+}
