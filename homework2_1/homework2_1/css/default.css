@@ -14,14 +14,43 @@
 }
 
 .logo {
-    margin-top: 150px;
-    margin-left: 50px;
     height: 300px;
     width: 600px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.contact_us {
+    height: 26px;
+    width: 114px;
+    margin-left: 857px;
+    margin-top: 309px;
+    margin-right: 214px;
+}
+
+.phone {
+    height: 16px;
+    width: 81px;
+    margin-left: 857px;
+    margin-right: 242px;
+    color: white;
+}
+
+.email {
+    height: 22px;
+    width: 141px;
+    margin-left: 827px;
+    margin-right: 187px;
+    color: white;
+    margin-top:0;
+}
+
+.dan {
+    float: right;
 }
 
 /*Середина*/
-
 .seredina {
     height: 1100px;
 }
