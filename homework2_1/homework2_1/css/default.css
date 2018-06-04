@@ -1,136 +1,57 @@
-﻿body {
-    background-image: url(../images/background.png) ;
-    background-size: 100%;
+﻿* {
+    margin: 0px;
 }
 
 .cont {
-    height: 100vh;
+    height: 100%;
+    background-image: url(../images/background.png);
+    background-size: 100%;
 }
 
 /*Header*/
 
 .header {
-    height: 450px;
+    padding-top: 50px;
 }
 
 .logo {
-    height: 300px;
-    width: 600px;
     float: left;
-    margin-top: 150px;
-    margin-left: 31px;
+    margin-left: 546px;
 }
 
-.contact_us {
-    height: 26px;
-    width: 114px;
-    margin-left: 857px;
-    margin-top: 309px;
-    margin-right: 214px;
-    margin-bottom: 0;
-    color: white;
-}
-
-.phone {
-    height: 16px;
-    width: 81px;
-    margin-left: 857px;
-    margin-right: 242px;
-    color: white;
-}
-
-.email {
-    height: 22px;
-    width: 141px;
-    margin-left: 827px;
-    margin-right: 187px;
-    color: white;
-    margin-top:0;
-}
-
-.dan {
-    float: right;
+.contact {
+    color: #ffffff;
+    margin-left: 1228px;
+    margin-top: 65px;
 }
 
 /*Середина*/
+
 .seredina {
-    height: 1100px;
+    height: 650px;
 }
 
-.one_pz {
-    height: 416px;
+figure {
+    display: inline-block;
 }
 
-.indi {
-    margin-left: 31px;
+figcaption {
+    color: #ffffff;
+    font-size: 20pt;
 }
 
-.nepal {
-    margin-left: 10px;
-}
-
-.tibet {
-    margin-left: 10px;
-}
-
-.text {
-    color: white;
+.pervii_ryad {
     text-align: center;
+    margin-top: 26px;
 }
 
-.indi1 {
-    width: 630px;
-    float: left;
-    margin: 0;
+.second_ryad {
+    text-align: center;
+    margin-top: 10px;
 }
 
-.nepal1 {
-    width: 601px;
-    margin: 0;
-    float: left;
-}
-
-.tibet1 {
-    width: 632px;
-    float: right;
-    margin: 0;
-}
-
-.two_pz {
-    height: 416px;
-    margin-top: 40px;
-}
-
-.bhutan {
-    margin-left: 31px;
-}
-
-.srilank {
-    margin-left: 10px;
-}
-
-.maldivs {
-    margin-left: 10px;
-}
-
-.bhutan1 {
-    width: 630px;
-    float: left;
-    margin: 0;
-}
-
-.srilank1 {
-    width: 601px;
-    margin: 0;
-    float: left;
-}
-
-.maldivs1 {
-    width: 632px;
-    float: right;
-    margin: 0;
-}
 /*Подвал*/
+
 .footer {
     height: 50px;
     text-align: center;
