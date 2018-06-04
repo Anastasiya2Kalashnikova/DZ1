@@ -73,9 +73,32 @@
     margin-left: 10px;
 }
 
+.text {
+    color: white;
+    text-align: center;
+}
+
+.indi1 {
+    width: 630px;
+    float: left;
+    margin: 0;
+}
+
+.nepal1 {
+    width: 601px;
+    margin: 0;
+    float: left;
+}
+
+.tibet1 {
+    width: 632px;
+    float: right;
+    margin: 0;
+}
+
 .two_pz {
     height: 416px;
-    margin-top: 83px;
+    margin-top: 40px;
 }
 
 .bhutan {
@@ -90,7 +113,23 @@
     margin-left: 10px;
 }
 
+.bhutan1 {
+    width: 630px;
+    float: left;
+    margin: 0;
+}
 
+.srilank1 {
+    width: 601px;
+    margin: 0;
+    float: left;
+}
+
+.maldivs1 {
+    width: 632px;
+    float: right;
+    margin: 0;
+}
 /*Подвал*/
 .footer {
     height: 50px;
