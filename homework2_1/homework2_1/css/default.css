@@ -10,7 +10,7 @@
 /*Header*/
 
 .header {
-    height: 590px;
+    height: 450px;
 }
 
 .logo {
@@ -18,7 +18,7 @@
     width: 600px;
     float: left;
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 31px;
 }
 
 .contact_us {
@@ -27,6 +27,8 @@
     margin-left: 857px;
     margin-top: 309px;
     margin-right: 214px;
+    margin-bottom: 0;
+    color: white;
 }
 
 .phone {
@@ -55,8 +57,41 @@
     height: 1100px;
 }
 
-/*Подвал*/
+.one_pz {
+    height: 416px;
+}
 
+.indi {
+    margin-left: 31px;
+}
+
+.nepal {
+    margin-left: 10px;
+}
+
+.tibet {
+    margin-left: 10px;
+}
+
+.two_pz {
+    height: 416px;
+    margin-top: 83px;
+}
+
+.bhutan {
+    margin-left: 31px;
+}
+
+.srilank {
+    margin-left: 10px;
+}
+
+.maldivs {
+    margin-left: 10px;
+}
+
+
+/*Подвал*/
 .footer {
     height: 50px;
     text-align: center;
