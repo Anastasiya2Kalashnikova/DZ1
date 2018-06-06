@@ -1,0 +1,24 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  background-image:url(../images/background.png);
+  background-size:238vh;
+}
+
+.main {
+    text-align: center;
+}
+/*Заголовок*/
+.head {
+    margin-left: 150px;
+    float: left;
+}
+/*Низ*/
+.niz {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
