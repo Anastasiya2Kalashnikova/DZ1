@@ -68,6 +68,30 @@ p {
     text-align: center;
 }
 /*середина с маню*/
+.menu {
+    background: #575656;
+    color: #fcfcfc;
+    height: 24px;
+    padding-top: 6px;
+    margin-top: 462px;
+    margin-left: 462px;
+    width: 1000px;
+    position: absolute;
+}
+
+.strelki {
+    position: absolute;
+    margin-left: 462px;
+    margin-top: 467px;
+    width: 854px;
+    height: 19px;
+    z-index:1;
+}
+
+a {
+    padding: 10px 25px;
+}
+
 
 /*Низ*/
 .niz {
