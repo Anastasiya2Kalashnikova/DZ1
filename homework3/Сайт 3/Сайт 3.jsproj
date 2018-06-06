@@ -59,7 +59,15 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="images\background.png" />
+    <Content Include="images\b_flag.png" />
     <Content Include="images\google_head.png" />
+    <Content Include="images\i_flag.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\m_flag.png" />
+    <Content Include="images\n_flag.png" />
+    <Content Include="images\photo.png" />
+    <Content Include="images\s_flag.png" />
+    <Content Include="images\t_flag.png" />
     <Content Include="images\white_main.png" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />

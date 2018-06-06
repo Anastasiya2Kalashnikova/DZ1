@@ -4,21 +4,75 @@
 }
 
 body {
-  background-image:url(../images/background.png);
-  background-size:238vh;
+    background-image: url(../images/background.png);
+    background-size: 1583px;
 }
 
 .main {
-    text-align: center;
+    float: left;
+    margin-left: 453px;
 }
 /*Заголовок*/
-.head {
-    margin-left: 150px;
-    float: left;
+
+.zagl {
+    position: relative;
 }
+
+.header {
+    position: relative;
+}
+
+.head {
+    text-align: center;
+    height:38px;
+    width: 100%;
+}
+
+.contact {
+    color: #68b4c7;
+    margin-top: 14px;
+    margin-left: 1241px;
+    position: absolute;
+}
+.logo {
+    margin-top: 61px;
+    margin-left: 489px;
+    position: absolute;
+}
+
+.photo {
+    position: absolute;
+    margin-left: 374px;
+    margin-top: 12px;
+}
+
+.flag {
+    position: absolute;
+    margin-left: 1049px;
+    margin-top: 144px;
+}
+
+figure {
+    display: inline-block;
+    width: 60px;
+    height: 44px;
+}
+
+figcaption {
+    color: #68b4c7;
+    font-size: 9pt;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+/*середина с маню*/
+
 /*Низ*/
 .niz {
     text-align: center;
+    margin-top: 996px;
     padding-top: 3px;
     padding-bottom: 10px;
 }
