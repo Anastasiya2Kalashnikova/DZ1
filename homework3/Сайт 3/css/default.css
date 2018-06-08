@@ -12,6 +12,7 @@ body {
     float: left;
     margin-left: 453px;
 }
+
 /*Заголовок*/
 
 .zagl {
@@ -25,7 +26,6 @@ body {
 .head {
     text-align: center;
     height:38px;
-    width: 100%;
 }
 
 .contact {
@@ -34,6 +34,7 @@ body {
     margin-left: 1241px;
     position: absolute;
 }
+
 .logo {
     margin-top: 61px;
     margin-left: 489px;
@@ -44,6 +45,7 @@ body {
     position: absolute;
     margin-left: 374px;
     margin-top: 12px;
+    z-index: 9;
 }
 
 .flag {
@@ -64,39 +66,156 @@ figcaption {
     text-align: center;
 }
 
-p {
+.kartinka {
     text-align: center;
 }
-/*середина с маню*/
+
+/*середина с меню*/
+
 .menu {
     background: #575656;
-    color: #fcfcfc;
-    height: 24px;
-    padding-top: 6px;
     margin-top: 462px;
     margin-left: 462px;
     width: 1000px;
     position: absolute;
+    z-index: 8;
 }
+
+/*Верхняя часть меню*/
 
 .strelki {
     position: absolute;
-    margin-left: 462px;
-    margin-top: 467px;
-    width: 854px;
-    height: 19px;
-    z-index:1;
+    margin-left: 726px;
+    margin-top: 466px;
+    width: 834px;
+    height: 18px;
+    z-index:11;
 }
 
-a {
-    padding: 10px 25px;
+ul {
+    list-style: none;
 }
 
+ul:after {
+      display: block;
+      clear: both;
+      float: none;
+}
 
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a {
+        display: block;
+        padding-left: 36px;
+        padding-right: 36px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: white;
+    }
+
+ul.menu > li > a:hover {
+    background-color: #4d4d4d;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 163px;
+    top: 27px;
+    left: 0;
+    background-color: white;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+        display: block;
+        padding: 10px;
+        color: white;
+        background-color: #4d4d4d;
+        text-decoration: none;
+    }
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+/*Нижняя часть меню*/
+
+.blok_left {
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 463px;
+    z-index: 1;
+}
+
+.blok_right {
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 1253px;
+    z-index: 1;
+}
+
+.vstavki_1 {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 463px;
+    z-index: 2;
+    text-align: center;
+    width: 208px;
+    height: 20px;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+.vstavki_12 {
+    position: absolute;
+    margin-left: 463px;
+    z-index: 2;
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 528px;
+    width: 209px;
+    height: 171px;
+}
+
+.vstavki_2 {
+    position: absolute;
+    margin-top: 490px;
+    z-index: 2;
+    text-align: center;
+    height: 20px;
+    font-size: 15pt;
+    padding: 10px;
+    margin-left: 1252px;
+    width: 189px;
+}
+
+.vstavki_22 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 528px;
+    margin-left: 1254px;
+    width: 208px;
+    height: 438px;
+}
 /*Низ*/
 .niz {
     text-align: center;
     margin-top: 996px;
     padding-top: 3px;
     padding-bottom: 10px;
+    color: white;
 }
