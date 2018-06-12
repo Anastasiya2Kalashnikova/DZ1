@@ -71,7 +71,6 @@
     <Content Include="images\s_flag.png" />
     <Content Include="images\t_flag.png" />
     <Content Include="images\white_main.png" />
-    <Content Include="images\white_triangles.png" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
