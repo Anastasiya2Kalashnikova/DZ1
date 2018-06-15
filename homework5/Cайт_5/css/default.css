@@ -1,0 +1,45 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    position: absolute;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+td {
+    width: 67px;
+    height: 58px;
+    border-style:  solid  ;
+}
+
+tr {
+    border-style:  solid  ;
+}
+
+.black {
+    background: #000000;
+}
+
+.yelloy {
+    background: #edf500;
+}
+
+.red {
+    background: #d46535;
+}
+
+.blue {
+   background: #0000a6;
+}
