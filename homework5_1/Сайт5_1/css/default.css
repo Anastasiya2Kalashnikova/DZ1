@@ -85,12 +85,27 @@ p {
     font-family: Areal, Helvetica Neue, sans-serif; /* Гарнитура шрифта */
 }
 
+.fonfic {
+   
+}
 
+    .fonfic:hover {
+        background: none;
+        font-weight: bold;
+    }
 
 .seredina {
     text-align: center;
 }
 
 .Background_copy {
-   margin-bottom: -4px;
+    margin-bottom: -4px;
+}
+
+.sentr_menu {
+    height: 500px;
+    width: 20%;
+    background-color: rgba(84, 86, 88, 0.6);
+    float: left;
+    position: absolute;
 }
