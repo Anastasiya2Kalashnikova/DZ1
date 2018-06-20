@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    border: none;
-}
-
 .wrapper {
     background-color: #6ed156;
 }
@@ -96,14 +92,12 @@ p {
 
 .Background_copy {
     margin-bottom: -4px;
-   
 }
 
 .sentr_menu {
     height: 590px;
-    width: 24%;
+    width: 457px;
     background-color: rgba(0, 0, 0, 0.7);
-    
     position: absolute;
     top: 282px;
     right: 748px;
