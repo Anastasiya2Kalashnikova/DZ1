@@ -60,6 +60,7 @@
     </AppxManifest>
     <Content Include="images\Background_copy.png" />
     <Content Include="images\flag.png" />
+    <Content Include="images\Facebook.png" />
     <Content Include="images\razdelitel%27.png" />
     <Content Include="index.html" />
     <Content Include="css\default.css" />
