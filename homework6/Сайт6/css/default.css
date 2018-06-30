@@ -1,5 +1,80 @@
-﻿body {
-  /* Раскомментируйте это, чтобы включить прокрутку и масштабирование
-  действие касания: операция;
-  */
+﻿* {
+margin:0;
+padding:0;
+}
+
+body {
+ 
+}
+
+.wrapper{
+    background-color:aquamarine;
+}
+
+header_1 {
+    float: left;
+}
+
+form {
+    background-color: #3d617f;
+    float: left;
+    border-radius: 4px/3px;
+    box-shadow: inset 0px 0px 25px 9px rgba(35,55,88,1);
+    
+}
+
+figure {
+    float: left;
+    text-align: center;
+}
+
+.nomer {
+    text-decoration: none;
+    font-size: 19px;
+    color: #61686c;
+}
+
+.form {
+    display: inline-block;
+    padding:6px;
+}
+
+.colortext {
+    width: 135px;
+    height: 18px;
+    border: none; 
+}
+
+ul {
+    float: right;
+    padding-top:8px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-grid;
+}
+
+.line {
+    border-left: 2px solid #fff;
+    margin-left: 4px;
+    padding-left: 9px;
+}
+
+.silka {
+    text-decoration: none;
+}
+
+.aside{
+    text-align:left;
+    padding-left:20px;
+    padding-right:8px;
+}
+
+.navi{
+height:34px;
+}
+
+.header_2{
+    clear:left;
 }
