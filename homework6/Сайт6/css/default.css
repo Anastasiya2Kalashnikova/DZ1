@@ -7,25 +7,25 @@ body {
  
 }
 
-.wrapper{
-    background-color:aquamarine;
+.wrapper {
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0px 497px;
 }
 
 header_1 {
-    float: left;
+    
 }
 
 form {
     background-color: #3d617f;
-    float: left;
     border-radius: 4px/3px;
     box-shadow: inset 0px 0px 25px 9px rgba(35,55,88,1);
     
 }
 
 figure {
-    float: left;
-    text-align: center;
+    
 }
 
 .nomer {
@@ -46,8 +46,8 @@ figure {
 }
 
 ul {
-    float: right;
-    padding-top:8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 li {
@@ -69,6 +69,7 @@ li {
     text-align:left;
     padding-left:20px;
     padding-right:8px;
+
 }
 
 .navi{
@@ -77,4 +78,36 @@ height:34px;
 
 .header_2{
     clear:left;
+}
+
+.menushka {
+    background: #272a2d;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #b2babe;
+    padding: 3px;
+}
+
+.silka_2:hover {
+    color: white;
+    border: none;
+    background: #3d617f;
+    border-radius: 138px 138px 138px 138px;
+    padding:3px;
+}
+
+/*niz*/
+.footer {
+    background-color: #3d617f;
+    padding-bottom:73px;
+}
+
+.niz_silka:hover {
+    color: #74aac9;
+}
+
+.zvet {
+    color: #e0650d;
 }
