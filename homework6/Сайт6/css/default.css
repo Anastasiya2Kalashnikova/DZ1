@@ -98,10 +98,14 @@ ul > li > a {
     padding:3px;
 }
 
+/*Середина*/
+.sleng{
+    display:inline-block;
+}
 /*niz*/
 .footer {
     background-color: #3d617f;
-    padding-bottom:73px;
+    padding-bottom: 73px;
 }
 
 .niz_silka:hover {
