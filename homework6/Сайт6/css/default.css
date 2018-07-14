@@ -33,12 +33,12 @@ form {
     border: none; 
 }
 
-ul {
+.stan {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-li {
+.stand {
     list-style-type: none;
     display: inline-grid;
 }
@@ -71,7 +71,7 @@ height:34px;
     background: #272a2d;
 }
 
-ul > li > a {
+ul.stan > li.stand > a {
     text-decoration: none;
     color: #b2babe;
     padding: 3px;
@@ -86,6 +86,10 @@ ul > li > a {
 }
 
 /*Середина*/
+.left_muny{
+   width:154px;
+}
+
 .sleng{
     
 }
@@ -102,6 +106,42 @@ ul > li > a {
     padding: 3px;
     box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
 }
+
+.shina_1, .BOLT_1, .disk_1 {
+    color: #3d617f;
+    border: none;
+    background: white;
+    border-radius: 138px 138px 138px 138px;
+    padding: 3px;
+    box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+    text-align:left;
+}
+
+.shina, .bolt, .disk {
+    display: block;
+    color: #3e3f40;
+}
+
+
+
+    .shina:hover {
+        font-style: italic;
+        font-weight: 900;
+        color: #3d617f;
+    }
+
+    .bolt:hover {
+        font-style: italic;
+        font-weight: 900;
+        color: #3d617f;
+    }
+
+    .disk:hover {
+        font-style: italic;
+        font-weight: 900;
+        color: #3d617f;
+    }
+
 /*niz*/
 .footer {
     background-color: #3d617f;
