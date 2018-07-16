@@ -9,10 +9,10 @@ padding:0;
     margin: 0px 497px;
 }
 
-form {
+.form_1 {
     background-color: #3d617f;
     border-radius: 4px/3px;
-    box-shadow: inset 0px 0px 25px 9px rgba(35,55,88,1);   
+    box-shadow: inset 0px 0px 25px 9px rgba(35,55,88,1);
 }
 
 
@@ -86,12 +86,10 @@ ul.stan > li.stand > a {
 }
 
 /*Середина*/
-.left_muny{
-   width:154px;
-}
-
-.sleng{
-    
+.left_muny {
+    width: 154px;
+    float: left;
+    margin-left: 10px;
 }
 
 .blue {
@@ -102,9 +100,10 @@ ul.stan > li.stand > a {
     color: #3d617f;
     border: none;
     background: white;
-    border-radius: 138px 138px 138px 138px;
+    border-radius: 72px 72px 72px 72px;
     padding: 3px;
     box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+    margin-bottom:10px;
 }
 
 .shina_1, .BOLT_1, .disk_1 {
@@ -114,15 +113,15 @@ ul.stan > li.stand > a {
     border-radius: 138px 138px 138px 138px;
     padding: 3px;
     box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
-    text-align:left;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top:4px;
 }
 
 .shina, .bolt, .disk {
     display: block;
     color: #3e3f40;
 }
-
-
 
     .shina:hover {
         font-style: italic;
@@ -141,8 +140,42 @@ ul.stan > li.stand > a {
         font-weight: 900;
         color: #3d617f;
     }
+    /*Середина правого края*/
+.right_muny {
+    width: 154px;
+    float: right;
+    margin-right: 10px;
+}
+
+.shina_2, .disk_2 {
+    color: #3d617f;
+    border: none;
+    background: white;
+    border-radius: 138px 138px 138px 138px;
+    padding: 3px;
+    box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+.vibor {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #304c6c;
+    color: white;
+    border: none;
+    box-shadow: inset 0px 0px 25px 12px rgba(58,110,166,1);
+    border-radius: 138px 138px 138px 138px;
+    margin-top: 10px;
+}
 
 /*niz*/
+.footer_logo{
+    clear:both;
+}
+
 .footer {
     background-color: #3d617f;
     padding-bottom: 73px;
