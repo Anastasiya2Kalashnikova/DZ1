@@ -90,6 +90,7 @@ ul.stan > li.stand > a {
     width: 154px;
     float: left;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .blue {
@@ -145,6 +146,7 @@ ul.stan > li.stand > a {
     width: 154px;
     float: right;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .shina_2, .disk_2 {
