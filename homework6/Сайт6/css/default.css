@@ -33,12 +33,12 @@ padding:0;
     border: none; 
 }
 
-.stan {
+.stan , .stan_2 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.stand {
+.stand ,.stand_2 {
     list-style-type: none;
     display: inline-grid;
 }
@@ -141,6 +141,26 @@ ul.stan > li.stand > a {
         font-weight: 900;
         color: #3d617f;
     }
+	
+	.centr_muny{
+		background-color:#adb6bd;
+		float: left;
+		margin: 10px;
+		width:558px;
+		border-radius: 15px 15px 15px 15px;
+	}
+	
+	.preload{
+		padding-top: 10px;
+	}
+	
+	.table{
+		display:inline-table;
+		padding:10px;
+		
+	}
+	
+	
     /*Середина правого края*/
 .right_muny {
     width: 154px;
@@ -181,6 +201,12 @@ ul.stan > li.stand > a {
 .footer {
     background-color: #3d617f;
     padding-bottom: 73px;
+}
+
+ a.niz_silka {
+    text-decoration: none;
+    color: #c7c7c7;
+    padding: 3px;
 }
 
 .niz_silka:hover {
