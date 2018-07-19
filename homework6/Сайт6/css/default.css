@@ -86,11 +86,28 @@ ul.stan > li.stand > a {
 }
 
 /*Середина*/
+
+
+.seriy{
+	color:#7a848a;
+}
+
+ .left_2{
+	 float:left;
+ }
+
+ .left{
+	text-align:left;
+	
+	
+ }
+
 .left_muny {
     width: 154px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+	clear:both;
 }
 
 .blue {
@@ -157,7 +174,6 @@ ul.stan > li.stand > a {
 	.table{
 		display:inline-table;
 		padding:10px;
-		
 	}
 	
 	
