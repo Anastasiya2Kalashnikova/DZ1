@@ -6,7 +6,7 @@ padding:0;
 .wrapper {
     background-color: aquamarine;
     text-align: center;
-    margin: 0px 497px;
+    margin: 0px 403px;
 }
 
 .form_1 {
@@ -86,21 +86,38 @@ ul.stan > li.stand > a {
 }
 
 /*Середина*/
+.flex{
+	display: flex;
+}
 
+.center_left{
+	background-color:white;
+	box-shadow: 10px 10px 45px -5px rgba(0,0,0,0.75);
+	border-radius: 15px 15px 15px 15px;
+	}
 
 .seriy{
 	color:#7a848a;
 }
 
- .left_2{
-	 float:left;
- }
-
  .left{
-	text-align:left;
-	
+	float:left;
+ }
+ 
+ .right{
 	
  }
+ 
+ .center{
+	 text-align:center;
+ }
+ 
+ .poisk{
+	 font-size:20px;
+	 color:#2d4666;
+	 
+ }
+ 
 
 .left_muny {
     width: 154px;
