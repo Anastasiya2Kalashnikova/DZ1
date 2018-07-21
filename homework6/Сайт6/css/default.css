@@ -9,17 +9,29 @@ padding:0;
     margin: 0px 414px;
 }
 
-.form_1 {
-    background-color: #3d617f;
-    border-radius: 4px/3px;
-    box-shadow: inset 0px 0px 25px 9px rgba(35,55,88,1);
+/*Хедр_1*/
+
+.header_1{
+	display:flex;
+	margin:0px 0px 4px 15px;
 }
 
+.telefon{
+	padding-right:15px;
+}
 
 .nomer {
     text-decoration: none;
     font-size: 19px;
     color: #61686c;
+}
+
+.form_1 {
+    background-color: #3d617f;
+    border-radius: 4px/3px;
+    box-shadow: inset 0px 0px 25px 9px rgba(35,55,88,1);
+	display:flex;
+	padding-right:28px;
 }
 
 .form {
@@ -33,9 +45,15 @@ padding:0;
     border: none; 
 }
 
+.form_2{
+	padding-top:10px;
+	display: inline-block;
+}
+
 .stan , .stan_2 {
     padding-top: 8px;
     padding-bottom: 8px;
+	padding-left:15px;
 }
 
 .stand ,.stand_2 {
@@ -43,14 +61,14 @@ padding:0;
     display: inline-grid;
 }
 
+.silka {
+    text-decoration: none;
+}
+
 .line {
     border-left: 2px solid #fff;
     margin-left: 4px;
     padding-left: 9px;
-}
-
-.silka {
-    text-decoration: none;
 }
 
 .aside{
@@ -61,14 +79,35 @@ padding:0;
 
 .navi{
 height:34px;
+padding-left:50px;
 }
+
+/*Хедр_2*/
 
 .header_2{
     clear:left;
 }
 
+.fon{
+    width: 1045px;
+}
+
+/*Середина*/
+
 .menushka {
     background: #272a2d;
+	display:flex;
+	box-shadow: 10px 14px 26px -5px rgba(0,0,0,0.75);
+	margin:5px 18px 4px 14px;
+	border-radius:7px 7px 7px 7px;
+}
+
+.stand_3{
+	padding:0px 10px;
+}
+
+.stan_3{
+	padding-left:187px;
 }
 
 ul.stan > li.stand > a {
@@ -85,10 +124,71 @@ ul.stan > li.stand > a {
     padding:3px;
 }
 
-/*Середина*/
+.telega{
+    padding-top: 10px;
+	padding-left: 83px;
+}
+
+.sleng{
+    display: flex;
+    padding-top: 10px;
+}
+
+.blue {
+    color: #324bc7;
+}
+
+/*Серединные блоки*/
+
 .flex{
 	display: flex;
 }
+
+.center_left{
+	width:483px;
+	margin:10px;
+	padding:10px;
+}	
+
+.left{
+	float:left;
+	text-align:left;
+ }
+
+.edin{
+	 display:flex;
+ }
+
+.seriy{
+	color:#7a848a;
+}
+
+.right{
+	 float:right;
+	 text-align:left;
+ }
+
+.levoe{
+	text-align:right;
+}
+
+.poisk{
+	 font-size:20px;
+	 color:#2d4666;
+	 float:right;
+ }
+
+.center_center{
+	width:192px;
+	margin:10px;
+	padding:10px;
+}
+
+.center_right{
+	width:322px;
+	margin:10px;
+	padding:10px;
+}	
 
 .center_left, .center_right,.center_center{
 	background-color:white;
@@ -96,49 +196,7 @@ ul.stan > li.stand > a {
 	border-radius: 15px 15px 15px 15px;
 	}
 
-.center_left{
-	width:483px;
-	margin:10px;
-	padding:10px;
-}	
-	
-.center_right{
-	width:322px;
-	margin:10px;
-	padding:10px;
-}	
-
-.center_center{
-	width:192px;
-	margin:10px;
-	padding:10px;
-}
-	
-.seriy{
-	color:#7a848a;
-}
-
- .left{
-	float:left;
-	text-align:left;
- }
- 
- .right{
-	 float:right;
-	 width:203px;
-	 text-align:left;
- }
- 
- .center{
-	 text-align:center;
- }
- 
- .poisk{
-	 font-size:20px;
-	 color:#2d4666;
-	 text-align:right;
- }
- 
+/*Нижняя середина*/
 
 .left_muny {
     width: 154px;
@@ -146,10 +204,6 @@ ul.stan > li.stand > a {
     margin-left: 13px;
     margin-top: 9px;
 	clear:both;
-}
-
-.blue {
-    color: #324bc7;
 }
 
 .katol {
@@ -160,6 +214,8 @@ ul.stan > li.stand > a {
     padding: 3px;
     box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
     margin-bottom:10px;
+	display:flex;
+	width:204px;
 }
 
 .shina_1, .BOLT_1, .disk_1 {
@@ -179,7 +235,7 @@ ul.stan > li.stand > a {
     color: #3e3f40;
 }
 
-    .shina:hover {
+   .shina:hover {
         font-style: italic;
         font-weight: 900;
         color: #3d617f;
@@ -196,30 +252,28 @@ ul.stan > li.stand > a {
         font-weight: 900;
         color: #3d617f;
     }
-	
-	.centr_muny{
+
+.centr_muny{
 		background-color:#adb6bd;
 		float: left;
-		margin:9px 43px;
-		width:648px;
+		margin:9px 32px 9px 91px;
+		width:542px;
 		border-radius: 15px 15px 15px 15px;
 	}
-	
-	.preload{
-		padding-top: 10px;
-	}
-	
-	.table{
+
+.table{
 		display:inline-table;
 		padding:10px;
 	}
-	
-	
-    /*Середина правого края*/
+
+.preload{
+		padding-top: 10px;
+	}
+
 .right_muny {
     width: 154px;
     float: right;
-    margin-right: 13px;
+    margin-right: 66px;
     margin-top: 9px;
 }
 
@@ -234,6 +288,7 @@ ul.stan > li.stand > a {
     margin-bottom: 8px;
     margin-top: 4px;
 }
+
 .vibor {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -247,7 +302,8 @@ ul.stan > li.stand > a {
     margin-top: 10px;
 }
 
-/*niz*/
+/*Фотер*/
+
 .footer_logo{
     clear:both;
 }
