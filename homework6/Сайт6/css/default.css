@@ -4,7 +4,7 @@ padding:0;
 }
 
 .wrapper {
-    background-color: aquamarine;
+    background-color:#f0f0f0;
     text-align: center;
     margin: 0px 414px;
 }
@@ -16,13 +16,14 @@ padding:0;
 	margin:0px 0px 4px 15px;
 }
 
-.telefon{
-	padding-right:15px;
+.telefon {
+    padding-right: 15px;
+    padding-top: 4px;
 }
 
 .nomer {
     text-decoration: none;
-    font-size: 19px;
+    font-size: 21px;
     color: #61686c;
 }
 
@@ -39,10 +40,14 @@ padding:0;
     padding:6px;
 }
 
+.fotka {
+    padding-top:3px;
+}
+
 .colortext {
     width: 135px;
-    height: 18px;
-    border: none; 
+    height: 25px;
+    border: none;
 }
 
 .form_2{
@@ -71,15 +76,22 @@ padding:0;
     padding-left: 9px;
 }
 
-.aside{
-    text-align:left;
-    padding-left:20px;
-    padding-right:8px;
+.zwet{
+    color:white;
 }
 
-.navi{
-height:34px;
-padding-left:50px;
+.aside {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 8px;
+    text-decoration: underline;
+    color: #b2babe;
+}
+
+.navi {
+    height: 34px;
+    padding-left: 50px;
+    padding-top: 3px;
 }
 
 /*Хедр_2*/
@@ -111,9 +123,12 @@ padding-left:50px;
 }
 
 ul.stan > li.stand > a {
-    text-decoration: none;
-    color: #b2babe;
     padding: 3px;
+}
+
+.silka_2 {
+    color: #b3bbbf;
+    text-decoration: none;
 }
 
 .silka_2:hover {
@@ -121,7 +136,7 @@ ul.stan > li.stand > a {
     border: none;
     background: #3d617f;
     border-radius: 138px 138px 138px 138px;
-    padding:3px;
+    padding: 3px;
 }
 
 .telega{
@@ -135,7 +150,8 @@ ul.stan > li.stand > a {
 }
 
 .blue {
-    color: #324bc7;
+    color: #426986;
+    font-weight: bold;
 }
 
 /*Серединные блоки*/
@@ -145,22 +161,52 @@ ul.stan > li.stand > a {
 }
 
 .center_left{
-	width:483px;
+	width:437px;
 	margin:10px;
 	padding:10px;
-}	
+}
 
-.left{
-	float:left;
-	text-align:left;
- }
+.kolonka_left {
+    width: 91px;
+}
+
+.kolonka_left_1 {
+    width: 41px;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
 
 .edin{
 	 display:flex;
  }
 
-.seriy{
-	color:#7a848a;
+.obin{
+    line-height:9px;
+    font-size:13px;
+}
+
+.size {
+    font-size: 13px;
+}
+
+.op{
+    float:left;
+}
+
+.nige {
+    padding-top: 10px;
+}
+
+.fil {
+    padding-left: 42px;
+    padding-top: 4px;
+}
+
+.seriy {
+    color: #7a848a;
 }
 
 .right{
@@ -184,17 +230,25 @@ ul.stan > li.stand > a {
 	padding:10px;
 }
 
-.center_right{
-	width:322px;
-	margin:10px;
-	padding:10px;
-}	
+.kolonka_center {
+    width: 50px;
+}
 
-.center_left, .center_right,.center_center{
-	background-color:white;
-	box-shadow: 10px 10px 45px -5px rgba(0,0,0,0.75);
-	border-radius: 15px 15px 15px 15px;
-	}
+.center_right {
+    width: 322px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.kolonka_right {
+    width: 45px;
+}
+
+.center_left, .center_right, .center_center {
+    background-color: white;
+    box-shadow: 10px 10px 45px -5px rgba(0,0,0,0.75);
+    border-radius: 15px 15px 15px 15px;
+}
 
 /*Нижняя середина*/
 
@@ -302,7 +356,7 @@ ul.stan > li.stand > a {
     margin-top: 10px;
 }
 
-/*Фотер*/
+/*Футер*/
 
 .footer_logo{
     clear:both;
@@ -310,10 +364,10 @@ ul.stan > li.stand > a {
 
 .footer {
     background-color: #3d617f;
-    padding-bottom: 73px;
+    padding-bottom: 60px;
 }
 
- a.niz_silka {
+.niz_silka {
     text-decoration: none;
     color: #c7c7c7;
     padding: 3px;
