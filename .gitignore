@@ -1,0 +1,10 @@
+#ниже файлы
+*.jsproj
+*.pfx
+*.appxmanifest
+*.sln
+#коталог
+.vs/
+bin/
+bld/
+js/
