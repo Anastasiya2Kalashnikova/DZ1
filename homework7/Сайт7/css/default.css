@@ -5,24 +5,22 @@
 
 .wrapper {
     text-align: center;
-    
 }
 
 .header {
     position: relative;
     background-image: url('../images/ron.png');
+    
 }
 
 .header_1 {
-    position: absolute;
-    top: 75px;
-    left:1124px;
+    padding-top: 69px;
+    padding-bottom: 41px;
 }
 
 .possition {
     font-size: 50px;
     font-weight: 900;
-    
 }
 
 
@@ -33,4 +31,43 @@
 
 .color_fiolet {
     color: #5e4870;
+}
+
+.color_poz {
+    color: #e0befd;
+}
+
+.linii {
+    text-decoration: none;
+    border-bottom: 2px solid #e0befd;
+    padding-bottom: 8px;
+}
+
+.otstyp {
+    padding-top: 134px;
+    padding-bottom: 167px;
+    text-align: center;
+}
+
+.vir {
+    width:1769px;
+}
+
+/*середина*/
+
+.sliders {
+    background-color: #69507e;
+    height:559px;
+}
+
+
+/*Подвал*/
+.footer {
+    position: relative;
+    background-image: url('../images/Footer.png');
+    height: 202px;
+}
+
+.shir{
+    font-weight:900;
 }
