@@ -7,10 +7,9 @@
     text-align: center;
 }
 
-.header {
+header {
     position: relative;
     background-image: url('../images/ron.png');
-    
 }
 
 .header_1 {
@@ -50,7 +49,7 @@
 }
 
 .vir {
-    width:1769px;
+    width:1749px;
 }
 
 /*середина*/
@@ -62,12 +61,20 @@
 
 
 /*Подвал*/
-.footer {
+footer {
     position: relative;
     background-image: url('../images/Footer.png');
-    height: 202px;
+    height: 156px;
 }
 
 .shir{
     font-weight:900;
+}
+
+.text{
+    display: inline-block;
+}
+
+.otst{
+    padding-top:45px;
 }
