@@ -59,7 +59,9 @@ header {
     height:559px;
 }
 
-
+figure{
+    padding:24px;
+}
 /*Подвал*/
 footer {
     position: relative;
