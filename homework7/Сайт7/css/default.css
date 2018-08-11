@@ -36,6 +36,11 @@ header {
     color: #e0befd;
 }
 
+
+.color_GREY {
+    color: #474747;
+}
+
 .linii {
     text-decoration: none;
     border-bottom: 2px solid #e0befd;
@@ -49,7 +54,9 @@ header {
 }
 
 .vir {
-    width:1749px;
+    width:1713px;
+    font-size:20px;
+    font-weight:900;
 }
 
 
@@ -59,9 +66,21 @@ header {
     padding: 7px 12px 0px 24px;
 }
 
+.kartin_1 {
+    float: left;
+    padding: 7px 15px 0px 5px;
+    z-index: 2;
+    position: absolute;
+    margin-top:31px;
+}
+
 .fife {
-   padding-top:48px;
-   clear:both
+    padding-top: 48px;
+    clear: both;
+}
+
+article{
+    clear:both;
 }
 
 .podstroy {
@@ -77,6 +96,14 @@ header {
     margin-left: 880px;
     font-weight: 100;
     font-size: 16px;
+}
+
+.black {
+    float: left;
+    clear: both;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 12px 0px 0px 56px;
 }
 
 .slika {
@@ -106,7 +133,40 @@ figure{
     background-color: #f9f9f9;
 }
 
+.body_2 {
+    padding-top: 272px;
+}
 
+.podstroy_4 {
+    padding-top: 25px;
+}
+
+.podstroy_0 {
+    padding: 24px 0px 0px 65px;
+}
+
+.figa {
+    position: absolute;
+    margin-left: 797px;
+    width: 256px;
+    height: 272px;
+}
+
+.conter {
+    background-color: #fff;
+    width: 256px;
+    height: 237px;
+    margin-top:5px;
+    margin-left:26px;
+}
+
+.figa_1 {
+    background-color: #fff;
+    position: absolute;
+    margin-left: 26px;
+    padding: 3px 38px 34px 32px;
+    margin-top: 23px;
+}
 
 /*Подвал*/
 footer {
