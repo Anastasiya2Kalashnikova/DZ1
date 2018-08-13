@@ -62,8 +62,8 @@ header {
 
 .kartin {
     float: left;
-    margin-left:814px;
-    padding: 7px 12px 0px 24px;
+    margin-left:747px;
+    padding: 4px 12px 0px 24px;
 }
 
 .kartin_1 {
@@ -75,7 +75,7 @@ header {
 }
 
 .fife {
-    padding-top: 48px;
+    padding-top: 37px;
     clear: both;
 }
 
@@ -86,16 +86,15 @@ article{
 .podstroy {
     float: left;
     font-weight: 100;
-    font-size: 16px;
-    padding-top: 18px;
+    font-size: 30px;
 }
 
 .podstroy_2 {
     float: left;
     clear: both;
-    margin-left: 880px;
+    margin-left: 853px;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .black {
@@ -109,29 +108,32 @@ article{
 .slika {
     float: left;
     clear: both;
-    margin-left: 986px;
+    margin-left: 1046px;
     text-decoration: none;
     font-size: 19px;
 }
 
 .slika_2 {
-    float: left;
+    float: right;
     clear: both;
     text-decoration: none;
     font-size: 11px;
     padding-top: 11px;
-    padding-left: 133px;
     font-weight: 800;
 }
 
-.type_text {
-    font-size: 18px;
-    font-weight: 900;
-    text-align:left;
-}
+    .slika_2:hover {
+       text-shadow: 1px 1px 0 #fff, 2px 2px 0 #000;
+    }
+
+    .type_text {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: left;
+    }
 
 .slika:hover {
-    box-shadow: 0px 0px 34px 1px rgba(255,255,255,1);
+    text-shadow: 1px 1px 5px #fff;
 }
     /*середина*/
 .sliders {
