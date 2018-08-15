@@ -144,10 +144,11 @@ article{
 
 figure{
     padding:24px;
+    clear:both;
 }
 
 .body {
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
 
 .body_2 {
@@ -188,8 +189,6 @@ figure{
 
 .ner, .ner_3, .ner_4 {
     position: absolute;
-    margin-left: 825px;
-    margin-top: 318px;
 }
 
 .tup {
@@ -221,12 +220,36 @@ figure{
     padding-top: 151px;
 }
 
-    /*Подвал*/
-    footer {
-        position: relative;
-        background-image: url('../images/Footer.png');
-        height: 156px;
-    }
+.perv_yp {
+    float: left;
+    margin-left: 759px;
+    padding:30px;
+}
+
+.two_yp {
+    float: left;
+    padding: 30px;
+}
+
+.ymen{
+    padding-right:57px;
+}
+
+.ymen_2 {
+    padding-right: 65px;
+}
+
+.ymen_1 {
+    padding-right: 55px;
+}
+
+/*Подвал*/
+footer {
+    position: relative;
+    background-image: url('../images/Footer.png');
+    height: 156px;
+     clear:both
+}
 
 .shir{
     font-weight:900;
