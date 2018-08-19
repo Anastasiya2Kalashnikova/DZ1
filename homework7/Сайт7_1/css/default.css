@@ -1,5 +1,75 @@
-﻿body {
-  /* Раскомментируйте это, чтобы включить прокрутку и масштабирование
-  действие касания: операция;
-  */
+﻿* {
+    margin: 0;
+    padding: 0;
 }
+
+.wrapper {
+    text-align: center;
+}
+
+header {
+    position: relative;
+    background-image: url('../images/fon_header.png');
+}
+
+.header_1 {
+    padding-top: 69px;
+    padding-bottom: 41px;
+}
+
+.possition {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.color_withe {
+    color: #ffffff;
+}
+
+.color_fiolet {
+    color: #5e4870;
+}
+
+.linii {
+    text-decoration: none;
+}
+
+.sliders {
+    background-color: #69507e;
+    height: 559px;
+    box-shadow: inset 0px 0px 34px 3px rgba(0,0,0,1);
+}
+
+.fife {
+}
+
+.kartin {
+    padding: 4px 12px 0px 24px;
+    position:;
+    margin-left:715px;
+}
+
+figure {
+    padding: 24px;
+    clear: both;
+}
+
+.podstroy {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.podstroy_2 {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.slika {
+    text-decoration: none;
+    font-size: 19px;
+    padding-left:245px;
+}
+
+    .slika:hover {
+        text-shadow: 1px 1px 5px #fff;
+    }
