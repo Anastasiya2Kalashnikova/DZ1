@@ -69,7 +69,6 @@ header {
 .kartin_1 {
     float: left;
     padding: 7px 15px 0px 5px;
-    z-index: 2;
     position: absolute;
     margin-top:31px;
 }
@@ -191,11 +190,15 @@ figure{
     position: absolute;
 }
 
-.tup {
-    font-size: 18px;
-    font-weight: 900;
-    text-align: left;
-}
+    .ner{
+        text-align:center;
+    }
+
+    .tup {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: left;
+    }
 
 .tup_1 {
     font-size: 14px;
@@ -204,7 +207,6 @@ figure{
 
 .kartin_2{
     position:absolute;
-    padding:0px;
 
 }
 
