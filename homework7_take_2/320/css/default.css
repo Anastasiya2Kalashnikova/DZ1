@@ -16,6 +16,15 @@ body {
 }
 
 header {
-    background-image: url(../images/fon_header.png);
-    height:517px;
+    background: url(../images/fon_header.png) no-repeat;
+    height: 517px;
+    display:inline-block;
+    width:100%;
+    align-content:center;
+}
+
+.nazvanie {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 69px;
 }
