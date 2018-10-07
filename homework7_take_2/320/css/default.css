@@ -4,11 +4,15 @@
 }
 
 .color_white {
-    color: white;
+    color: #ffffff;
 }
 
-.color_fiolet {
+.color_purple {
     color: #5e4870;
+}
+
+.color_pink {
+    color: #e0befd;
 }
 
 body {
@@ -18,13 +22,23 @@ body {
 header {
     background: url(../images/fon_header.png) no-repeat;
     height: 517px;
-    display:inline-block;
-    width:100%;
-    align-content:center;
+    display: inline-block;
+    width: 320px;
 }
 
 .nazvanie {
     font-size: xx-large;
     font-weight: bold;
     padding-top: 69px;
+    padding-bottom:41px;
+}
+
+.el_menu {
+    display: block;
+    text-decoration: none;
+}
+
+.widh_hr_el_menu {
+    width:47px;
+    margin-left:137px;
 }
