@@ -11,7 +11,7 @@
     color: #5e4870;
 }
 
-.color_pink {
+hr.color_pink {
     color: #e0befd;
 }
 
@@ -30,7 +30,7 @@ header {
     font-size: xx-large;
     font-weight: bold;
     padding-top: 69px;
-    padding-bottom:41px;
+    padding-bottom: 41px;
 }
 
 .el_menu {
@@ -39,6 +39,55 @@ header {
 }
 
 .widh_hr_el_menu {
-    width:47px;
-    margin-left:137px;
+    width: 47px;
+    margin-left: 137px;
 }
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+    ul:after {
+        display: block;
+        clear: both;
+    }
+
+    ul.menu > li {
+        position: relative;
+    }
+
+        ul.menu > li > a {
+            display: block;
+            text-decoration: none;
+        }
+
+            ul.menu > li > a:hover {
+                text-decoration: none;
+                background-color: #42394c;
+                border-radius: 23px 23px 23px 23px;
+                width: 245px;
+                
+               
+            }
+
+    ul.submenu {
+        display: none;
+    }
+
+        ul.submenu > li {
+            display: block;
+        }
+
+            ul.submenu > li > a {
+                display: block;
+                text-decoration: none;
+            }
+
+                ul.submenu > li > a:hover {
+                    text-decoration: underline;
+                }
+
+    ul.menu > li:hover > ul.submenu {
+        display: block;
+    }
